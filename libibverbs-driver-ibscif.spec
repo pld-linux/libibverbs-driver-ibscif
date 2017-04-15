@@ -1,12 +1,12 @@
 Summary:	Userspace driver for IB over Intel SCIF devices
 Summary(pl.UTF-8):	Sterownik przestrzeni użytkownika dla IB po urządzeniach Intel SCIF
 Name:		libibverbs-driver-ibscif
-Version:	1.0.0
+Version:	1.1.3
 Release:	1
 License:	BSD or GPL v2
 Group:		Libraries
-Source0:	https://www.openfabrics.org/downloads/libibscif/libibscif-%{version}.tar.gz
-# Source0-md5:	d9acbd3e62568beb3202e0c8c0a3fd6c
+Source0:	https://www.openfabrics.org/downloads/libibscif/libibscif-%{version}.tar.bz2
+# Source0-md5:	ca406152810869cab04c96b06716bdb5
 URL:		http://openib.org/
 BuildRequires:	libibverbs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
